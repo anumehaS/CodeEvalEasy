@@ -18,7 +18,8 @@ public static void main(String []args){
 			{
 				if(!next.trim().equals(""))
 				{	
-					System.out.print(isArmStrong(next.trim()));
+					String val = isArmStrong(next.trim())?"True":"False";
+					System.out.print(val);
 				} 
 				
 				System.out.println();
